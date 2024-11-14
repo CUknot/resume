@@ -13,7 +13,7 @@
 		intro = {} as IProfileResp['intro'],
 		projects = [],
 		technologies = [],
-		workExperiences = [],
+		paticipation = [],
 		educations = [],
 		interests = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
@@ -85,10 +85,10 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Paticipation</h2>
 			<hr />
 
-			{#each workExperiences as exp}
+			{#each paticipation as exp}
 				<Work {...exp} />
 			{/each}
 		</Hideable>
@@ -104,7 +104,10 @@
 					<Hideable hide={project.hide}>
 						<li>
 							<strong>{project.name}</strong>
-							- {project.details}
+							- {project.tools}
+							<br/>
+							{project.details}
+							<br/>
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
 							>
