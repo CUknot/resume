@@ -96,8 +96,8 @@ export const projects = [
     name: "To-Do List Web Application",
     stack: "Node.js, Postman",
     details: "Handled backend and database tasks. Used ExpressJS for routing, controllers, and connecting frontend and backend.",
-    url: "github.com/CUknot/ESS-Final-Project",
-    github: "github.com/CUknot/ESS-Final-Project",
+    url: "github.com/CUknot/ESS_Final_Project",
+    github: "github.com/CUknot/ESS_Final_Project",
   },
   {
     name: "ASCII Donut Animation",
