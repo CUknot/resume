@@ -12,6 +12,7 @@
     sourceLink,
     technologies,
     workExperiences,
+    interests
   } from "./data";
 
   let editMode = false;
@@ -82,6 +83,7 @@
     </table>
   </section>
 
+  <!--
   <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
@@ -91,6 +93,7 @@
       <Work {...exp} />
     {/each}
   </section>
+  -->
 
   <section>
     <HideToggle />
@@ -107,6 +110,7 @@
     </ul>
   </section>
 
+  <!--
   <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
@@ -125,6 +129,7 @@
       {/each}
     </div>
   </section>
+  -->
 
   <section>
     <HideToggle />
@@ -145,10 +150,10 @@
           - <i>{project.stack}</i>
           <p>
             {project.details}
-            <a href="https://{project.github}" target="_blank" rel="noreferrer">
-              <strong>{project.github}</strong>
-            </a>
           </p>
+          <a href="https://{project.github}" target="_blank" rel="noreferrer">
+              <strong>{project.github}</strong>
+          </a>
         </li>
       {/each}
     </ul>
@@ -168,6 +173,21 @@
       {/each}
     </ul>
   </section>
+
+  <section>
+  <HideToggle />
+  <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+  <hr />
+
+  <ul>
+    {#each interests as interest}
+      <li>
+        <HideToggle />
+        <strong>{interest.name}</strong> - <i>{interest.details}</i>
+      </li>
+    {/each}
+  </ul>
+</section>
 
   <footer class="print-only">
     (See in <a href={fullVersionLink} target="_blank" rel="noopener">web</a>
@@ -210,6 +230,10 @@
     display: none;
   }
 
+  li{
+    margin: 10px;
+  }
+
   @media print {
     * {
       @apply text-xs;
@@ -239,5 +263,12 @@
       margin: 0 0;
       padding: 0;
     }
+
+    li{
+    margin: 10px;
+    }
+
   }
 </style>
+
+

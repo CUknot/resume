@@ -1,191 +1,135 @@
-export const fullVersionLink = "https://resume.bookpanda.dev";
-export const sourceLink = "https://github.com/bookpanda/resumette";
-import { default as cloudPractitioner } from "./certs/cloud-practitioner.png";
+export const fullVersionLink = "https://resume.narze.live";
+export const sourceLink = "https://github.com/CUknot/resume";
 
 export const introData = {
-  name: "Idhibhat Pankam",
+  name: "Kittipat Jusingha",
   jobTitle: "Fullstack Software Engineer",
-  phone: import.meta.env.DEV ? import.meta.env.VITE_PHONE : "",
-  email: import.meta.env.DEV ? import.meta.env.VITE_EMAIL : "",
-  github: "bookpanda",
-  linkedin: "idhibhat-pankam",
+  phone: "0625149799",
+  email: "kknot2004@gmail.com",
+  github: "CUknot",
+  linkedin: "กิตติพัตน์-จูสิงห์-75a53b335",
   location: "Bangkok, Thailand",
-  website: "bookpanda.dev",
+  website: "",
 };
+
 
 export const technologies = [
   {
     section: "Languages",
     details: [
-      "Go",
-      "C#",
+      "C++ (strong)",
+      "Python (strong)",
+      "Java",
+      "JavaScript",
       "TypeScript",
       "Node.js",
-      "Python",
-      "Java",
-      "C++",
       "SQL",
-      "日本語 (N2)",
     ],
   },
   {
-    section: "Fullstack",
-    details: [
-      "React",
-      "Redux",
-      "tailwindcss",
-      "shadcnUI",
-      "ASP.NET Core",
-      "gin",
-      "GORM",
-      "Redis",
-      "S3",
-    ],
-  },
-  {
-    section: "Technologies",
-    details: [
-      "REST",
-      "GraphQL",
-      "gRPC",
-      "CI/CD",
-      "microservices",
-      "clean architecture",
-      "TDD",
-      "system design",
-      "JWT",
-      "OAuth",
-      "caching",
-      "metrics",
-    ],
-  },
-  {
-    section: "IaaS, PaaS",
-    details: ["AWS", "Docker", "Kubernetes", "Vercel", "Cloudflare", "Contabo"],
+    section: "Frameworks",
+    details: ["ReactJS", "NextJS", "TailwindCSS"],
   },
   {
     section: "Tools",
-    details: [
-      "Git",
-      "Postman",
-      "DBeaver",
-      "Portainer",
-      "Lens",
-      "Prometheus",
-      "Grafana",
-    ],
+    details: ["Git", "GitHub", "Docker"],
+  },
+  {
+    section: "Other",
+    details: ["AWS", "Vercel"],
   },
 ];
 
 export const educations = [
   {
     head: "Chulalongkorn University",
-    details:
-      "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.88)",
+    details: "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.79)",
   },
 ];
 
-export const workExperiences = [
-  {
-    position: "Backend Software Engineer Intern",
-    company: "Agoda",
-    url: "https://careersatagoda.com/",
-    years: ["June 2024", "July 2024"],
-    details: [
-      "Technologies used: GitLab CI/CD, Nginx, Scala, Play Framework, MSSQL",
-      "Migrated Finance Backoffice from Cspider VMs to PrivateCloud",
-      "Migrated Generic Adjustment tool's scenarios data source from Hadoop to MSSQL",
-      "Assessed the technical feasibility of integrating the Devstack internal tool into finance department repositories.",
-    ],
-  },
-  {
-    position: "Backend Developer",
-    company: "Information System Development, Student Government",
-    url: "https://isd.sgcu.in.th/",
-    years: ["December 2023", "Present"],
-    details: [
-      "Technologies used: Go, GORM, PostgreSQL, Redis, S3, Docker, Kubernetes, gRPC, GitOps",
-      "Led the development of the Freshy Orientation Web API for the Student Government (production 7,000 users)",
-      "Led the development of Pet Adoption Web API for the Animal Welfare Club",
-      "Initiated the backend onboarding process for new club members",
-    ],
-  },
-  {
-    position: "Fullstack Software Engineer Intern",
-    company: "Agoda",
-    url: "https://careersatagoda.com/",
-    years: ["June 2023", "October 2023"],
-    details: [
-      "Technologies used: React, Redux, TypeScript, Jest, .NET, NUnit, MSSQL, Grafana",
-      "Experimented with new features using A/B testing, measurements, and element tracking for thousands of users",
-      "Delivered features that serve tens of thousands of property owners",
-      "Created real-time dashboards for monitoring user behavior using Grafana, Superset (SQL)",
-    ],
-  },
-];
+/*export const workExperiences = [
+
+];*/
 
 export const activities = [
   {
-    name: "JSCCE 2023 (The 20th International Joint Conference on Computer Science and Software Engineering) (2023)",
-    details:
-      "Published 'Two-stage Thai Misspelling Correction based on Pre-trained Language Models', won the Best Presentation Award at the conference.",
+    name: "depa x AWS depa Growth lab",
+    details: [
+      "Enhanced retail engagement by proposing an AI-powered Virtual Personal Shopper (VPS) using generative AI, resulting in personalized product recommendations across multiple channels.",
+      "Improved user experience by designing automated promotion management and custom AI personalities, optimizing retail processes, and increasing customer satisfaction.",
+    ],
+  },
+  {
+    name: "Mathematics Olympiad Camp (POSN Camp 1&2)",
+    details: [
+      "Participated in the Mathematics Olympiad Training Camp at SRIAYUDHYA SCHOOL.",
+      "Developed problem-solving skills in advanced mathematics, including algebra, geometry, number theory, and combinatorics.",
+      "Engaged in intensive training sessions and collaborated with peers to solve challenging mathematical problems.",
+      "Gained valuable experience preparing for competitive mathematics examinations.",
+    ],
   },
 ];
 
 export const projects = [
   {
-    name: "Freshy Orientation Web API (production 7,000 users)",
-    stack: "Go, Gin, gRPC, Redis, PostgreSQL, S3, Prometheus, Grafana",
-    details:
-      "Freshmen orientation registration, group matching, and score tally web app",
-    url: "github.com/isd-sgcu/rpkm67-gateway",
-    github: "github.com/isd-sgcu/rpkm67-backend",
+    name: "Space Ace",
+    stack: "Java, JavaFX",
+    details: "A 2D arcade-style game, where the player controls a spaceship",
+    url: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
+    github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
   },
   {
-    name: "Pet Adoption Web API",
-    stack: "Go, fiber, gRPC, Redis, PostgreSQL, Minio",
-    details: "Animal Welfare Club 'Johnjud' web app for adopting club's pets",
-    url: "johnjud.com",
-    github: "github.com/isd-sgcu/johnjud-backend",
+    name: "Chess",
+    stack: "JavaScript, React, Tailwind",
+    details: "This is a web-based chess game developed using React.",
+    url: "github.com/CUknot/react-chess",
+    github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
   },
   {
-    name: "Single Sign-On Implementation",
-    stack: "Go, PostgreSQL, ASP.NET Core, Redis, React, TypeScript",
-    details:
-      "2 services with internal JWT auth connected to CAS to simulate SSO",
-    url: "sso-cas.bookpanda.dev",
-    github: "github.com/bookpanda/sso-cas",
+    name: "Web Application showing dust location at locations in Bangkok districts",
+    stack: "JavaScript, React, CSS, Firebase",
+    details: "Designed and used ReactJS to create the webpage showing the dust value at each location in Bangkok, fetched from Firebase.",
+    url: "github.com/SecretKr/embed-final-project",
+    github: "github.com/SecretKr/embed-final-project",
   },
   {
-    name: "Discord RAG Bot",
-    stack: "Python, TypeScript, Langchain, discordjs, fastapi",
-    details: "Microsoft RAG Hackathon project submission",
-    url: "github.com/seg-org/rag-bot",
-    github: "github.com/seg-org/rag-api",
+    name: "To-Do List Web Application",
+    stack: "Node.js, Postman",
+    details: "Handled backend and database tasks. Used ExpressJS for routing, controllers, and connecting frontend and backend.",
+    url: "github.com/CUknot/ESS-Final-Project",
+    github: "github.com/CUknot/ESS-Final-Project",
   },
   {
-    name: "Course Assignments Sharing Platform",
-    stack:
-      "TypeScript, ASP.NET, Chrome Extension, Firestore, React, Redux, Redis",
-    details:
-      "1-click assignment solutions sharing, removing the burden of taking answer screenshots",
-    url: "ourcourseville.vercel.app",
-    github: "github.com/bookpanda/ourcourseville",
+    name: "ASCII Donut Animation",
+    stack: "React, Vite, TypeScript, JavaScript, HTML Canvas",
+    details: "A web-based ASCII animation rendering a spinning 3D donut, inspired by a1k0n's donut math blog post.",
+    url: "github.com/CUknot/Donut-Web",
+    github: "github.com/CUknot/Donut-Web",
   },
   {
-    name: "Spotify Lyrics to Anki Cards Web App",
-    stack:
-      "React, TypeScript, AWS Lambda, Python, Spotify API, Azure Translator",
-    details:
-      "Makes Japanese Anki cards from ANY Spotify lyrics by tokenization and translation",
-    url: "lyrics2anki.bookpanda.dev",
-    github: "github.com/bookpanda/Lyrics2Anki",
+    name: "Breast Cancer Classification Model",
+    stack: "Python, Scikit-Learn, NumPy, Pandas, TensorFlow/PyTorch",
+    details: "Machine learning model to classify breast cancer types based on gene expression data using MLP and CNN architectures.",
+    url: "www.kaggle.com/code/kittipatjusingha/breast-cancer-classification",
+    github: "www.kaggle.com/code/kittipatjusingha/breast-cancer-classification",
   },
 ];
 
-export const certs = [
+/*export const certs = [
+
+];*/
+
+export let interests = [
   {
-    image: cloudPractitioner,
-    url: "https://www.credly.com/badges/3cc5547a-7c07-46a7-817f-7cd346df3c7e/public_url",
+    name: "Coding",
+    details: "Exploring algorithms, data structures, and problem-solving."
   },
+  {
+    name: "Productivity & Life-hacks",
+    details: "Learning new techniques to enhance personal and professional productivity."
+  },
+  {
+    name: "Mathematics",
+    details: "Applying mathematical concepts to solve coding challenges."
+  }
 ];

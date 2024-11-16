@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development vite",
+    "dev": " vite",
     "build": "vite build",
     "test:watch": "jest --watchAll",
     "serve": "vite preview",
