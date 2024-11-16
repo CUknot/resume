@@ -1,3 +1,6 @@
 # Resumette
 
-My Resume is cloned from [Leomotors/resumette](https://github.com/Leomotors/resumette), which is built on top of [narze/resume](https://github.com/narze/resume).
+My Resume is cloned from [bookpanda/resumette](https://github.com/bookpanda/resumette), which is built on top of [Leomotors/resumette](https://github.com/Leomotors/resumette) and [narze/resume](https://github.com/narze/resume).
+
+
+https://resume-ten-brown.vercel.app/
