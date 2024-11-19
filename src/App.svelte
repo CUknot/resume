@@ -25,7 +25,7 @@
 <header
   class="web-only text-center p-4 sm:p-6 bg-green-500 text-white w-screen"
 >
-  <h1 class="text-4xl">Resumette</h1>
+  <h1 class="text-4xl mb-3">Resumette</h1>
   <h3>
     <button on:click={toggleMode} class="underline text-lg">
       {editMode ? "[View]" : "[Edit]"}
@@ -58,7 +58,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Skills</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Skills</h2>
     <hr />
 
     <table class="text-left items-start table table-fixed">
@@ -86,7 +86,7 @@
   <!--
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Work Experience</h2>
     <hr />
 
     {#each workExperiences as exp}
@@ -97,7 +97,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Education</h2>
     <hr />
 
     <ul>
@@ -113,7 +113,7 @@
   <!--
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Certifications</h2>
     <hr />
 
     <div class="flex">
@@ -133,7 +133,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Projects</h2>
     <hr />
 
     <ul>
@@ -161,14 +161,15 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Activities</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Activities</h2>
     <hr />
 
     <ul>
       {#each activities as act}
         <li>
           <HideToggle />
-          <strong>{act.name}</strong>, {act.details}
+          <strong>{act.name}</strong>
+          <p>{act.details}</p>
         </li>
       {/each}
     </ul>
@@ -176,7 +177,7 @@
 
   <section>
   <HideToggle />
-  <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+  <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Interests</h2>
   <hr />
 
   <ul>
@@ -194,6 +195,7 @@
     for a more updated version or view
     <a href={sourceLink} target="_blank" rel="noopener">source code</a>)
   </footer>
+  
 </main>
 
 <style lang="postcss">
@@ -221,11 +223,11 @@
   section > ul {
     @apply text-left list-disc pl-8;
   }
-
+  
   :global(.print-only) {
     display: none;
   }
-
+ 
   :global(main.display-mode .hide-toggle) {
     display: none;
   }
@@ -238,9 +240,9 @@
     * {
       @apply text-xs;
     }
-
+    
     :global(.print-only) {
-      display: inherit;
+      display: none;
     }
 
     :global(.web-only) {
@@ -260,12 +262,16 @@
     }
 
     main {
-      margin: 0 0;
-      padding: 0;
+      margin: 0;
+      padding: 10px;
     }
 
     li{
     margin: 10px;
+    }
+
+    @page {
+    margin: 10px; /* Removes default margins for the printed page */
     }
 
   }

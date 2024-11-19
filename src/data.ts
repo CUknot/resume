@@ -17,8 +17,8 @@ export const technologies = [
   {
     section: "Languages",
     details: [
-      "C++ (strong)",
-      "Python (strong)",
+      "C++",
+      "Python",
       "Java",
       "JavaScript",
       "TypeScript",
@@ -74,28 +74,28 @@ export const projects = [
   {
     name: "Space Ace",
     stack: "Java, JavaFX",
-    details: "A 2D arcade-style game, where the player controls a spaceship",
+    details: "A 2D arcade game, where the player controls a spaceship to avoid obstacles",
     url: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
     github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
   },
   {
     name: "Chess",
     stack: "JavaScript, React, Tailwind",
-    details: "This is a web-based chess game developed using React.",
+    details: "A web-based chess game that designed to challenge player's strategies, deverloped with ReactJS",
     url: "github.com/CUknot/react-chess",
     github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
   },
   {
     name: "Web Application showing dust location at locations in Bangkok districts",
     stack: "JavaScript, React, CSS, Firebase",
-    details: "Designed and used ReactJS to create the webpage showing the dust value at each location in Bangkok, fetched from Firebase.",
+    details: "A webpage that monitors dust levels acroos different locations in Bangkok, deverloped with ReactJS for the user interface and integrated with Firebase to fetch real-time data.",
     url: "github.com/SecretKr/embed-final-project",
     github: "github.com/SecretKr/embed-final-project",
   },
   {
     name: "To-Do List Web Application",
     stack: "Node.js, Postman",
-    details: "Handled backend and database tasks. Used ExpressJS for routing, controllers, and connecting frontend and backend.",
+    details: "A To-Do list web app that help users pln and organize their daily tasks, using ExpressJS for routing and controllers.",
     url: "github.com/CUknot/ESS_Final_Project",
     github: "github.com/CUknot/ESS_Final_Project",
   },
@@ -109,9 +109,17 @@ export const projects = [
   {
     name: "Breast Cancer Classification Model",
     stack: "Python, Scikit-Learn, NumPy, Pandas, TensorFlow/PyTorch",
-    details: "Machine learning model to classify breast cancer types based on gene expression data using MLP and CNN architectures.",
+    details: "A machine learning model that classifies breast cancer types based on gene expression data using MLP and CNN architectures.",
     url: "www.kaggle.com/code/kittipatjusingha/breast-cancer-classification",
     github: "www.kaggle.com/code/kittipatjusingha/breast-cancer-classification",
+  },
+  {
+    name: "Project Lists",
+    stack: "Next.js, React, TypeScript, Tailwind CSS",
+    details: "A web that display a list of projects. It includes features for viewing project details, adding new projects via a form, and navigation between project pages. The backend API is powered by Next.js API routes.",
+    url: "github.com/CUknot/project_lists",
+    github: "github.com/CUknot/project_lists",
+
   },
 ];
 
