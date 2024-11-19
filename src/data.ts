@@ -55,17 +55,13 @@ export const activities = [
   {
     name: "depa x AWS depa Growth lab",
     details: [
-      "Enhanced retail engagement by proposing an AI-powered Virtual Personal Shopper (VPS) using generative AI, resulting in personalized product recommendations across multiple channels.",
-      "Improved user experience by designing automated promotion management and custom AI personalities, optimizing retail processes, and increasing customer satisfaction.",
+      "resulting in personalized product recommendations across multiple channels with improved user experience by designing automated user promotion management and custom AI personalities to optimize retail processes and increase customer satisfaction"
     ],
   },
   {
-    name: "Mathematics Olympiad Camp (POSN Camp 1&2)",
+    name: "Mathematics Olympiad Camp (POSN Camp 1&2) SRIAYUDHYA SCHOOL",
     details: [
-      "Participated in the Mathematics Olympiad Training Camp at SRIAYUDHYA SCHOOL.",
-      "Developed problem-solving skills in advanced mathematics, including algebra, geometry, number theory, and combinatorics.",
-      "Engaged in intensive training sessions and collaborated with peers to solve challenging mathematical problems.",
-      "Gained valuable experience preparing for competitive mathematics examinations.",
+      "Engaged in intensive training sessions and collaborated with peers to solve challenging mathematical problems that enhanced problem-solving skills in advanced mathematics, including algebra, geometry, number theory, and combinatorics.",
     ],
   },
 ];
@@ -80,15 +76,15 @@ export const projects = [
   },
   {
     name: "Chess",
-    stack: "JavaScript, React, Tailwind",
-    details: "A web-based chess game that designed to challenge player's strategies, deverloped with ReactJS",
+    stack: "JavaScript, React, TailwindCSS",
+    details: "A web-based chess game that designed to challenge player's strategies, developed with ReactJS",
     url: "github.com/CUknot/react-chess",
     github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
   },
   {
     name: "Web Application showing dust location at locations in Bangkok districts",
     stack: "JavaScript, React, CSS, Firebase",
-    details: "A webpage that monitors dust levels acroos different locations in Bangkok, deverloped with ReactJS for the user interface and integrated with Firebase to fetch real-time data.",
+    details: "A webpage that monitors dust levels across different locations in Bangkok, developed with ReactJS for the user interface and integrated with Firebase to fetch real-time data.",
     url: "github.com/SecretKr/embed-final-project",
     github: "github.com/SecretKr/embed-final-project",
   },
