@@ -55,7 +55,7 @@ export const activities = [
   {
     name: "depa x AWS depa Growth lab",
     details: [
-      "resulting in personalized product recommendations across multiple channels with improved user experience by designing automated user promotion management and custom AI personalities to optimize retail processes and increase customer satisfaction"
+      "resulting in personalized product recommendations across multiple channels with improved user experience by designing automated user promotion management and custom AI personalities to optimize retail processes and increase customer satisfaction."
     ],
   },
   {
@@ -70,14 +70,14 @@ export const projects = [
   {
     name: "Space Ace",
     stack: "Java, JavaFX",
-    details: "A 2D arcade game, where the player controls a spaceship to avoid obstacles",
+    details: "A 2D arcade game, where the player controls a spaceship to avoid obstacles.",
     url: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
     github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
   },
   {
     name: "Chess",
     stack: "JavaScript, React, TailwindCSS",
-    details: "A web-based chess game that designed to challenge player's strategies, developed with ReactJS",
+    details: "A web-based chess game that designed to challenge player's strategies, developed with ReactJS.",
     url: "github.com/CUknot/react-chess",
     github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
   },
@@ -91,7 +91,7 @@ export const projects = [
   {
     name: "To-Do List Web Application",
     stack: "Node.js, Postman",
-    details: "A To-Do list web app that help users pln and organize their daily tasks, using ExpressJS for routing and controllers.",
+    details: "A To-Do list web app that helps users plan and organize their daily tasks, using ExpressJS for routing and controllers.",
     url: "github.com/CUknot/ESS_Final_Project",
     github: "github.com/CUknot/ESS_Final_Project",
   },
@@ -112,7 +112,7 @@ export const projects = [
   {
     name: "Project Lists",
     stack: "Next.js, React, TypeScript, Tailwind CSS",
-    details: "A web that display a list of projects. It includes features for viewing project details, adding new projects via a form, and navigation between project pages. The backend API is powered by Next.js API routes.",
+    details: "A web that displays a list of projects. It includes features for viewing project details, adding new projects via a form, and navigation between project pages. The backend API is powered by Next.js API routes.",
     url: "github.com/CUknot/project_lists",
     github: "github.com/CUknot/project_lists",
 
