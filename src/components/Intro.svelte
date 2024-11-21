@@ -19,7 +19,7 @@
   </div>
 
   <h2
-    class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl print:text-[1.7rem] text-center p-4 print:pt-0"
+  class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl print:text-[1.7rem] text-center p-4 print:pt-0 mt-[0.4cm]"
   >
     {name}
     <span class="block text-base lg:text-2xl">{jobTitle}</span>
