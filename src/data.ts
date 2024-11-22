@@ -112,7 +112,7 @@ export const projects = [
   {
     name: "Project Lists",
     stack: "Next.js, React, TypeScript, TailwindCSS",
-    details: "A web that displays lists of projects. It features displaying project details, creating new projects via a form, and navigating between project pages. The backend API is powered by Next.js API routes.",
+    details: "A web that displays lists of projects. It has features for displaying project details, creating new projects via a form, and navigating between project pages. The backend API is powered by Next.js API routes.",
     url: "github.com/CUknot/project_lists",
     github: "github.com/CUknot/project_lists",
 
