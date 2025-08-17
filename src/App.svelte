@@ -83,7 +83,6 @@
     </table>
   </section>
 
-  <!--
   <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Work Experience</h2>
@@ -93,7 +92,6 @@
       <Work {...exp} />
     {/each}
   </section>
-  -->
 
   <section>
     <HideToggle />
