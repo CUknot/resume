@@ -21,7 +21,7 @@
   </p>
 
   <!-- Contact Info in one line -->
-  <p class="text-sm sm:text-base text-gray-700 flex flex-wrap justify-center gap-x-2 gap-y-1">
+  <p class="contact-info text-sm sm:text-base text-gray-700 flex flex-wrap justify-center gap-x-2 gap-y-1">
     {#if phone}
       <a href="tel:{phone}" class="hover:text-green-600">{phone}</a>
     {/if}
@@ -61,6 +61,13 @@
     }
     .hover\:text-green-600 {
       color: black !important;
+    }
+    /* Make contact info more compact for print */
+    .contact-info {
+      font-size: 0.8rem !important; /* smaller than normal text */
+      line-height: 1.2 !important;
+      gap: 0.3rem !important; /* reduce spacing */
+      flex-wrap: nowrap !important; /* keep in one line if possible */
     }
   }
 </style>
