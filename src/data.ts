@@ -7,7 +7,7 @@ export const introData = {
   phone: "0625149799",
   email: "kknot2004@gmail.com",
   github: "CUknot",
-  linkedin: "กิตติพัตน์-จูสิงห์-75a53b335",
+  linkedin: "kittipat-jusingha-75a53b335",
   location: "Bangkok, Thailand",
   website: "",
 };

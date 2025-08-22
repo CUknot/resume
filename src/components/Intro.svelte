@@ -9,49 +9,58 @@
   export let website = "";
 </script>
 
-<div
-  class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base"
->
-  <div class="flex-1 text-left sm:py-4 w-48">
-    <p><a href="tel:{phone}">{phone}</a></p>
-    <p><a href="mailto:{email}">{email}</a></p>
-    <p>{location}</p>
-  </div>
-
-  <h2
-  class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl print:text-[1.7rem] text-center p-4 print:pt-0 mt-[0.4cm]"
+<div class="text-center border-b border-gray-300 pb-4 mb-6">
+  <!-- Name + Job Title -->
+  <h1
+    class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight"
   >
     {name}
-    <span class="block text-base lg:text-2xl">{jobTitle}</span>
-  </h2>
+  </h1>
+  <p class="text-base sm:text-lg md:text-xl text-gray-600 font-medium mb-2">
+    {jobTitle}
+  </p>
 
-  <div
-    class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base"
-  >
-    <p>
-      <a href="https://github.com/{github}" target="_blank" rel="noreferrer">
+  <!-- Contact Info in one line -->
+  <p class="text-sm sm:text-base text-gray-700 flex flex-wrap justify-center gap-x-2 gap-y-1">
+    {#if phone}
+      <a href="tel:{phone}" class="hover:text-green-600">{phone}</a>
+    {/if}
+    {#if email}
+      • <a href="mailto:{email}" class="hover:text-green-600">{email}</a>
+    {/if}
+    {#if location}
+      • {location}
+    {/if}
+    {#if github}
+      • <a href="https://github.com/{github}" target="_blank" rel="noreferrer" class="hover:text-green-600">
         github.com/{github}
       </a>
-    </p>
-    <p>
-      <a href="https://{website}" target="_blank" rel="noreferrer">
+    {/if}
+    {#if website}
+      • <a href="https://{website}" target="_blank" rel="noreferrer" class="hover:text-green-600">
         {website}
       </a>
-    </p>
-    <p>
-      <a
-        href="https://linkedin.com/in/{linkedin}"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Linkedin
+    {/if}
+    {#if linkedin}
+      • <a href="https://linkedin.com/in/{linkedin}" target="_blank" rel="noreferrer" class="hover:text-green-600">
+        linkedin.com/in/{linkedin}
       </a>
-    </p>
-  </div>
+    {/if}
+  </p>
 </div>
 
 <style>
   a {
     text-decoration: underline;
+  }
+
+  @media print {
+    a {
+      color: black !important;
+      text-decoration: none;
+    }
+    .hover\:text-green-600 {
+      color: black !important;
+    }
   }
 </style>
